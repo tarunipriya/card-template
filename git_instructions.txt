@@ -1,0 +1,17 @@
+
+##### For Local Updates ##############
+
+git add .
+
+git status
+
+git commit -m "message"
+
+
+
+
+############ To push to the GitHub Online ###############3
+
+git push origin main
+
+
