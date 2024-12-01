@@ -17,3 +17,16 @@ p {
     line-height: 1.5;
     text-align: center;
 }
+
+#header-div {
+    height: 30px;
+    border: #0078D7 solid 1px;
+    text-align: center;
+}
+
+#footer-div {
+    height: 30px;
+    border: black solid 1px;
+    text-align: center;
+    align-items: center;   
+}
