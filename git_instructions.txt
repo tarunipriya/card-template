@@ -5,7 +5,7 @@ git add .
 
 git status
 
-git commit -m "message"
+git commit -m "type your message"
 
 
 
