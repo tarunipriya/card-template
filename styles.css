@@ -1,12 +1,25 @@
 /* styles.css */
 body {
+
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #141418;
     color: #333;
     margin: 0;
     padding: 0;
+    align-items: center;
+    display:flex;
+    justify-content:center;
 }
 
+#outer_div{
+
+    height:650px;
+    width:1000px;
+    background-color: #dfdfe8;
+   
+
+
+}
 h1 {
     color: #0078D7;
     text-align: center;
@@ -16,4 +29,69 @@ p {
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
+}
+
+#header-div {
+    height: 12%;
+    border: #0078D7 solid 5px;
+    text-align: center;
+    align-items:center;
+    display:flex;
+    justify-content:center;
+}
+.header-content {
+    width:30%;
+    /* text-align:center; */
+    border:red solid 3px;
+    margin-right:5px;
+    height:70%;
+    /* padding-top:5%; */
+    align-items:center;
+    display:flex;
+    justify-content:center;
+}
+
+.hc-subcontent{
+    /* border:#0078D7 solid 1px; */
+    width:40%;
+    float:left;
+    align-items:center;
+}
+#main-div {
+    height:70%;
+    /* width:95%; */
+   border: green  5px solid;
+   align-items:center;
+   display:flex;
+   justify-content:center;
+}
+#main_left {
+    border:red  5px solid;
+    height:90%;
+    width:40%;
+    float:left;
+    margin-right:15px;
+}
+
+#main_right {
+    border:blue  5px solid;
+    height:90%;
+    width:40%;
+    float:left;
+}
+
+#footer-div {
+    height: 12%;
+    /* border: black solid 5px; */
+    text-align: center;
+    align-items: center;
+    display:flex;
+    justify-content:center;
+}
+#footer-div img{
+    width:10%;
+    height:90%;
+    /* border:#0078D7 solid 2px; */
+    margin-right:5%;
+    margin-left:5%;
 }
