@@ -57,6 +57,12 @@ p {
     float:left;
     align-items:center;
 }
+
+.auth-buttons {
+    background:black;
+}
+
+
 #main-div {
     height:70%;
     /* width:95%; */
@@ -65,20 +71,54 @@ p {
    display:flex;
    justify-content:center;
 }
+
 #main_left {
-    border:red  5px solid;
-    height:90%;
-    width:40%;
-    float:left;
-    margin-right:15px;
+        border:red  5px solid;
+        height:90%;
+        width:40%;
+        float:left;
+        margin-right:15px;
+    }
+
+.rate {
+    font-size:150%;
+    color:black;
 }
 
+.trustpilot-rating {
+    font-size:100;
+    color:black;
+
+}
+
+.main-title {
+    padding-right:50%;
+    font-size:500%;
+    color:black;
+}
+
+.card {
+     color:black;
+     width:50%;
+     float:left;
+     justify-content:center;
+     
+}
 #main_right {
     border:blue  5px solid;
     height:90%;
     width:40%;
     float:left;
+    justify-content:center;
+    display:flex;
+    align-items:center;
 }
+
+#main_right img {
+    height:90%;
+    width:90%;
+}
+
 
 #footer-div {
     height: 12%;
@@ -95,3 +135,4 @@ p {
     margin-right:5%;
     margin-left:5%;
 }
+
