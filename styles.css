@@ -74,12 +74,65 @@ p {
 }
 
 #main_left {
-        border:red  5px solid;
-        height:90%;
-        width:40%;
-        float:left;
-        margin-right:15px;
+    margin-right:15px;
+        
     }
+.star-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px; /* Square shape */
+        height: 50px; /* Square shape */
+        background-color: #000;
+        color: #fff;
+        font-size: 1.5rem;
+        border-radius: 10px;
+      }
+.trustpilot-rating {
+        float:left;
+        width:90%;
+
+}
+
+.main-title {
+    font-size: 11rem;
+    color: #010101;
+    padding-left: 40px;
+  }
+      
+
+
+
+
+
+#main_left_top {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 3rem;
+}
+
+#main_left_middle {
+    
+}
+#main_left_bottom {
+    float:left;
+    display:flex;
+}
+#mlb_business_card {
+    float:left;
+    width:90%;
+}
+
+.href {
+    width:50%;
+    height:50%;
+}
+
+#mlb_corporate_card {
+    float:left;
+}
+
 
 .rate {
     font-size:150%;
